@@ -10,7 +10,6 @@
 <body>
 	<%
 		request.setCharacterEncoding("utf-8");
-	
 		Cookie cartId = new Cookie("Shipping_cartId", URLEncoder.encode(request.getParameter("cartId"), "utf-8"));
 		Cookie name = new Cookie("Shipping_name", URLEncoder.encode(request.getParameter("name"),"utf-8"));
 		Cookie shippingDate = new Cookie("Shipping_shippingDate", URLEncoder.encode(request.getParameter("shippingDate"),"utf-8"));
