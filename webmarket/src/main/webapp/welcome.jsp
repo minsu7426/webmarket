@@ -1,9 +1,9 @@
-<%@ page language="java" contentType="text/html; charset=EUC-KR" pageEncoding="EUC-KR"%>
+<%@ page language="java" contentType="text/html; charset=utf-8" pageEncoding="utf-8"%>
 <%@ page import = "java.util.Date" %>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="EUC-KR">
+<meta charset="utf-8">
 <title>Welcome</title>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 </head>
@@ -38,7 +38,7 @@
 					hour = hour - 12;
 				}
 				String CT = hour + ":" + minute + ":" + second + " " + am_pm;
-				out.println("ÇöÀç Á¢¼Ó ½Ã°¢ : " + CT + "\n");
+				out.println("í˜„ìž¬ ì ‘ì† ì‹œê° : " + CT + "\n");
 			%>
 		</div>
 		<hr>
